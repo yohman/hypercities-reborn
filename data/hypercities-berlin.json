@@ -1,0 +1,875 @@
+[
+  {
+    "id": "map:1",
+    "kind": "historical-map",
+    "title": "Pharus-Map Berlin",
+    "alternativeTitle": "Pharus-Plan Berlin",
+    "source": {
+      "dataset": "map-library",
+      "sourceRecordId": "1",
+      "sourceRow": 2
+    },
+    "place": {
+      "id": "place:city:berlin",
+      "label": "Berlin"
+    },
+    "temporal": {
+      "start": "1905-01-01 00:00:00",
+      "end": "1905-12-31 00:00:00",
+      "startYear": 1905,
+      "endYear": 1905
+    },
+    "geometry": {
+      "bbox": [
+        13.281875,
+        52.4805,
+        13.475083,
+        52.533605
+      ],
+      "sourceCorners": {
+        "northEast": [
+          13.475083,
+          52.533605
+        ],
+        "southWest": [
+          13.281875,
+          52.4805
+        ]
+      }
+    },
+    "rendering": {
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1905/",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1905/Thumb_50.png",
+      "minZoom": 10,
+      "maxZoom": 18,
+      "projection": null
+    },
+    "sourceRecord": {
+      "city": "Berlin",
+      "title": "Pharus-Plan Berlin",
+      "titleEn": "Pharus-Map Berlin",
+      "creator": "Pharus-Verlag G.m.b.H. Berlin",
+      "publicationDate": "",
+      "publisher": "Berlin in alten Karten Verlag Richard Seitz & Co., Berlin (Pharus-Verlag)",
+      "copyright": "",
+      "description": "N/ATEST",
+      "width": "68",
+      "height": "48",
+      "scale": "",
+      "caption": "",
+      "captionEn": "",
+      "collectionSource": "UCLA Bruman Map Collection",
+      "imageRecord": "",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1905/Thumb_50.png",
+      "callNumber": "***G6299 B3 svar 1982-83",
+      "state": "0",
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1905/",
+      "projection": "",
+      "maxZoom": "18",
+      "minZoom": "10",
+      "id": "1",
+      "mapping.kml": "",
+      "mapping.neLat": "52.53360500",
+      "mapping.neLon": "13.47508300",
+      "mapping.swLat": "52.48050000",
+      "mapping.swLon": "13.28187500",
+      "mapping.altitude": "0",
+      "mapping.dateFrom.date": "1905-01-01 00:00:00",
+      "mapping.dateFrom.timezone_type": "3",
+      "mapping.dateFrom.timezone": "America/Los_Angeles",
+      "mapping.dateTo.date": "1905-12-31 00:00:00",
+      "mapping.dateTo.timezone_type": "3",
+      "mapping.dateTo.timezone": "America/Los_Angeles",
+      "mapping.view": "",
+      "mapping.zoom": "",
+      "mapping.markerType": "",
+      "mapping.markerState": "",
+      "mapping.isNetworkLink": "False",
+      "mapping.isCollection": "False",
+      "mapping.georeferences": "[]",
+      "mapping.id": "",
+      "publicationDate.date": "",
+      "publicationDate.timezone_type": "",
+      "publicationDate.timezone": ""
+    },
+    "eligibleForCoring": true
+  },
+  {
+    "id": "map:4",
+    "kind": "historical-map",
+    "title": "Pharus-Map: Berlin",
+    "alternativeTitle": "Pharus-Plan: Berlin",
+    "source": {
+      "dataset": "map-library",
+      "sourceRecordId": "4",
+      "sourceRow": 5
+    },
+    "place": {
+      "id": "place:city:berlin",
+      "label": "Berlin"
+    },
+    "temporal": {
+      "start": "1926-01-01 00:00:00",
+      "end": "1926-12-31 00:00:00",
+      "startYear": 1926,
+      "endYear": 1926
+    },
+    "geometry": {
+      "bbox": [
+        13.274861,
+        52.468235,
+        13.486356,
+        52.566036
+      ],
+      "sourceCorners": {
+        "northEast": [
+          13.486356,
+          52.566036
+        ],
+        "southWest": [
+          13.274861,
+          52.468235
+        ]
+      }
+    },
+    "rendering": {
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1926/",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1926/Thumb_50.png",
+      "minZoom": 10,
+      "maxZoom": 18,
+      "projection": null
+    },
+    "sourceRecord": {
+      "city": "Berlin",
+      "title": "Pharus-Plan: Berlin",
+      "titleEn": "Pharus-Map: Berlin",
+      "creator": "Urheber: Cornelius Löwe",
+      "publicationDate": "",
+      "publisher": "Pharus-Verlag G.m.b.H., Berling SW 68, Lindenstr. 3",
+      "copyright": "",
+      "description": "",
+      "width": "88",
+      "height": "72",
+      "scale": "",
+      "caption": "",
+      "captionEn": "",
+      "collectionSource": "UCLA Bruman Map Collection",
+      "imageRecord": "",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1926/Thumb_50.png",
+      "callNumber": "G6084 Berlin NS PV 1926",
+      "state": "0",
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1926/",
+      "projection": "",
+      "maxZoom": "18",
+      "minZoom": "10",
+      "id": "4",
+      "mapping.kml": "",
+      "mapping.neLat": "52.56603600",
+      "mapping.neLon": "13.48635600",
+      "mapping.swLat": "52.46823500",
+      "mapping.swLon": "13.27486100",
+      "mapping.altitude": "0",
+      "mapping.dateFrom.date": "1926-01-01 00:00:00",
+      "mapping.dateFrom.timezone_type": "3",
+      "mapping.dateFrom.timezone": "America/Los_Angeles",
+      "mapping.dateTo.date": "1926-12-31 00:00:00",
+      "mapping.dateTo.timezone_type": "3",
+      "mapping.dateTo.timezone": "America/Los_Angeles",
+      "mapping.view": "",
+      "mapping.zoom": "",
+      "mapping.markerType": "",
+      "mapping.markerState": "",
+      "mapping.isNetworkLink": "False",
+      "mapping.isCollection": "False",
+      "mapping.georeferences": "[]",
+      "mapping.id": "",
+      "publicationDate.date": "",
+      "publicationDate.timezone_type": "",
+      "publicationDate.timezone": ""
+    },
+    "eligibleForCoring": true
+  },
+  {
+    "id": "map:8",
+    "kind": "historical-map",
+    "title": "Berlin 1947",
+    "alternativeTitle": "Berlin 1947",
+    "source": {
+      "dataset": "map-library",
+      "sourceRecordId": "8",
+      "sourceRow": 9
+    },
+    "place": {
+      "id": "place:city:berlin",
+      "label": "Berlin"
+    },
+    "temporal": {
+      "start": "1947-01-01 00:00:00",
+      "end": "1947-12-31 00:00:00",
+      "startYear": 1947,
+      "endYear": 1947
+    },
+    "geometry": {
+      "bbox": [
+        13.22155,
+        52.441319,
+        13.517061,
+        52.577095
+      ],
+      "sourceCorners": {
+        "northEast": [
+          13.517061,
+          52.577095
+        ],
+        "southWest": [
+          13.22155,
+          52.441319
+        ]
+      }
+    },
+    "rendering": {
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1947/",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1947/Thumb_50.png",
+      "minZoom": 10,
+      "maxZoom": 18,
+      "projection": null
+    },
+    "sourceRecord": {
+      "city": "Berlin",
+      "title": "Berlin 1947",
+      "titleEn": "Berlin 1947",
+      "creator": "",
+      "publicationDate": "",
+      "publisher": "",
+      "copyright": "",
+      "description": "",
+      "width": "0",
+      "height": "0",
+      "scale": "",
+      "caption": "",
+      "captionEn": "",
+      "collectionSource": "",
+      "imageRecord": "",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1947/Thumb_50.png",
+      "callNumber": "",
+      "state": "0",
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1947/",
+      "projection": "",
+      "maxZoom": "18",
+      "minZoom": "10",
+      "id": "8",
+      "mapping.kml": "",
+      "mapping.neLat": "52.57709500",
+      "mapping.neLon": "13.51706100",
+      "mapping.swLat": "52.44131900",
+      "mapping.swLon": "13.22155000",
+      "mapping.altitude": "0",
+      "mapping.dateFrom.date": "1947-01-01 00:00:00",
+      "mapping.dateFrom.timezone_type": "3",
+      "mapping.dateFrom.timezone": "America/Los_Angeles",
+      "mapping.dateTo.date": "1947-12-31 00:00:00",
+      "mapping.dateTo.timezone_type": "3",
+      "mapping.dateTo.timezone": "America/Los_Angeles",
+      "mapping.view": "",
+      "mapping.zoom": "",
+      "mapping.markerType": "",
+      "mapping.markerState": "",
+      "mapping.isNetworkLink": "False",
+      "mapping.isCollection": "False",
+      "mapping.georeferences": "[]",
+      "mapping.id": "",
+      "publicationDate.date": "",
+      "publicationDate.timezone_type": "",
+      "publicationDate.timezone": ""
+    },
+    "eligibleForCoring": true
+  },
+  {
+    "id": "map:17",
+    "kind": "historical-map",
+    "title": "Berlin 1237",
+    "alternativeTitle": "Berlin 1237",
+    "source": {
+      "dataset": "map-library",
+      "sourceRecordId": "17",
+      "sourceRow": 18
+    },
+    "place": {
+      "id": "place:city:berlin",
+      "label": "Berlin"
+    },
+    "temporal": {
+      "start": "1237-01-01 00:00:00",
+      "end": "1237-12-31 00:00:00",
+      "startYear": 1237,
+      "endYear": 1237
+    },
+    "geometry": {
+      "bbox": [
+        13.128002,
+        52.40889,
+        13.620013,
+        52.61778
+      ],
+      "sourceCorners": {
+        "northEast": [
+          13.620013,
+          52.61778
+        ],
+        "southWest": [
+          13.128002,
+          52.40889
+        ]
+      }
+    },
+    "rendering": {
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1237/",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1237/Thumb_50.png",
+      "minZoom": 12,
+      "maxZoom": 18,
+      "projection": null
+    },
+    "sourceRecord": {
+      "city": "Berlin",
+      "title": "Berlin 1237",
+      "titleEn": "Berlin 1237",
+      "creator": "",
+      "publicationDate": "",
+      "publisher": "",
+      "copyright": "",
+      "description": "",
+      "width": "0",
+      "height": "0",
+      "scale": "",
+      "caption": "",
+      "captionEn": "",
+      "collectionSource": "",
+      "imageRecord": "",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1237/Thumb_50.png",
+      "callNumber": "",
+      "state": "0",
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1237/",
+      "projection": "",
+      "maxZoom": "18",
+      "minZoom": "12",
+      "id": "17",
+      "mapping.kml": "",
+      "mapping.neLat": "52.61778000",
+      "mapping.neLon": "13.62001300",
+      "mapping.swLat": "52.40889000",
+      "mapping.swLon": "13.12800200",
+      "mapping.altitude": "0",
+      "mapping.dateFrom.date": "1237-01-01 00:00:00",
+      "mapping.dateFrom.timezone_type": "3",
+      "mapping.dateFrom.timezone": "America/Los_Angeles",
+      "mapping.dateTo.date": "1237-12-31 00:00:00",
+      "mapping.dateTo.timezone_type": "3",
+      "mapping.dateTo.timezone": "America/Los_Angeles",
+      "mapping.view": "",
+      "mapping.zoom": "",
+      "mapping.markerType": "",
+      "mapping.markerState": "",
+      "mapping.isNetworkLink": "False",
+      "mapping.isCollection": "False",
+      "mapping.georeferences": "[]",
+      "mapping.id": "",
+      "publicationDate.date": "",
+      "publicationDate.timezone_type": "",
+      "publicationDate.timezone": ""
+    },
+    "eligibleForCoring": true
+  },
+  {
+    "id": "map:18",
+    "kind": "historical-map",
+    "title": "Berlin 1650: Nach Memhard umgearbeiteter Plan von Schleuen; erste Beikarte",
+    "alternativeTitle": "Berlin 1650: Nach Memhard umgearbeiteter Plan von Schleuen; erste Beikarte",
+    "source": {
+      "dataset": "map-library",
+      "sourceRecordId": "18",
+      "sourceRow": 19
+    },
+    "place": {
+      "id": "place:city:berlin",
+      "label": "Berlin"
+    },
+    "temporal": {
+      "start": "1650-01-01 00:00:00",
+      "end": "1650-12-31 00:00:00",
+      "startYear": 1650,
+      "endYear": 1650
+    },
+    "geometry": {
+      "bbox": [
+        13.391891,
+        52.508868,
+        13.418146,
+        52.526054
+      ],
+      "sourceCorners": {
+        "northEast": [
+          13.418146,
+          52.526054
+        ],
+        "southWest": [
+          13.391891,
+          52.508868
+        ]
+      }
+    },
+    "rendering": {
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1650/",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1650/Thumb_50.png",
+      "minZoom": 12,
+      "maxZoom": 18,
+      "projection": null
+    },
+    "sourceRecord": {
+      "city": "Berlin",
+      "title": "Berlin 1650: Nach Memhard umgearbeiteter Plan von Schleuen; erste Beikarte",
+      "titleEn": "",
+      "creator": "",
+      "publicationDate": "",
+      "publisher": "",
+      "copyright": "",
+      "description": "",
+      "width": "0",
+      "height": "0",
+      "scale": "",
+      "caption": "",
+      "captionEn": "",
+      "collectionSource": "",
+      "imageRecord": "",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1650/Thumb_50.png",
+      "callNumber": "",
+      "state": "0",
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1650/",
+      "projection": "",
+      "maxZoom": "18",
+      "minZoom": "12",
+      "id": "18",
+      "mapping.kml": "",
+      "mapping.neLat": "52.52605400",
+      "mapping.neLon": "13.41814600",
+      "mapping.swLat": "52.50886800",
+      "mapping.swLon": "13.39189100",
+      "mapping.altitude": "0",
+      "mapping.dateFrom.date": "1650-01-01 00:00:00",
+      "mapping.dateFrom.timezone_type": "3",
+      "mapping.dateFrom.timezone": "America/Los_Angeles",
+      "mapping.dateTo.date": "1650-12-31 00:00:00",
+      "mapping.dateTo.timezone_type": "3",
+      "mapping.dateTo.timezone": "America/Los_Angeles",
+      "mapping.view": "",
+      "mapping.zoom": "",
+      "mapping.markerType": "",
+      "mapping.markerState": "",
+      "mapping.isNetworkLink": "False",
+      "mapping.isCollection": "False",
+      "mapping.georeferences": "[]",
+      "mapping.id": "",
+      "publicationDate.date": "",
+      "publicationDate.timezone_type": "",
+      "publicationDate.timezone": ""
+    },
+    "eligibleForCoring": true
+  },
+  {
+    "id": "map:20",
+    "kind": "historical-map",
+    "title": "The true map of the city Berlin",
+    "alternativeTitle": "Le Veritable Plan de la Ville Berlin",
+    "source": {
+      "dataset": "map-library",
+      "sourceRecordId": "20",
+      "sourceRow": 21
+    },
+    "place": {
+      "id": "place:city:berlin",
+      "label": "Berlin"
+    },
+    "temporal": {
+      "start": "1710-01-01 00:00:00",
+      "end": "1710-12-31 00:00:00",
+      "startYear": 1710,
+      "endYear": 1710
+    },
+    "geometry": {
+      "bbox": [
+        13.341351,
+        52.478779,
+        13.453486,
+        52.540766
+      ],
+      "sourceCorners": {
+        "northEast": [
+          13.453486,
+          52.540766
+        ],
+        "southWest": [
+          13.341351,
+          52.478779
+        ]
+      }
+    },
+    "rendering": {
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1710/",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1710/Thumb_50.png",
+      "minZoom": 12,
+      "maxZoom": 18,
+      "projection": null
+    },
+    "sourceRecord": {
+      "city": "Berlin",
+      "title": "Le Veritable Plan de la Ville Berlin",
+      "titleEn": "The true map of the city Berlin",
+      "creator": "illegible signature",
+      "publicationDate": "",
+      "publisher": "Berlin in alten Karten Verlag Richard Seitz & Co., Berlin (illegible signature)",
+      "copyright": "",
+      "description": "",
+      "width": "96",
+      "height": "68",
+      "scale": "",
+      "caption": "",
+      "captionEn": "",
+      "collectionSource": "UCLA Bruman Map Collection",
+      "imageRecord": "",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1710/Thumb_50.png",
+      "callNumber": "***G6299 B3 svar 1982-83",
+      "state": "0",
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1710/",
+      "projection": "",
+      "maxZoom": "18",
+      "minZoom": "12",
+      "id": "20",
+      "mapping.kml": "",
+      "mapping.neLat": "52.54076600",
+      "mapping.neLon": "13.45348600",
+      "mapping.swLat": "52.47877900",
+      "mapping.swLon": "13.34135100",
+      "mapping.altitude": "0",
+      "mapping.dateFrom.date": "1710-01-01 00:00:00",
+      "mapping.dateFrom.timezone_type": "3",
+      "mapping.dateFrom.timezone": "America/Los_Angeles",
+      "mapping.dateTo.date": "1710-12-31 00:00:00",
+      "mapping.dateTo.timezone_type": "3",
+      "mapping.dateTo.timezone": "America/Los_Angeles",
+      "mapping.view": "",
+      "mapping.zoom": "",
+      "mapping.markerType": "",
+      "mapping.markerState": "",
+      "mapping.isNetworkLink": "False",
+      "mapping.isCollection": "False",
+      "mapping.georeferences": "[]",
+      "mapping.id": "",
+      "publicationDate.date": "",
+      "publicationDate.timezone_type": "",
+      "publicationDate.timezone": ""
+    },
+    "eligibleForCoring": true
+  },
+  {
+    "id": "map:26",
+    "kind": "historical-map",
+    "title": "Grundriss der Königlichen Haupt und Residenzstadt Berlin, nach der vom KÃ¶nigl. Policeydirectorio(?) verstalteten neuen Bezeichnung der Strassen und Plätze",
+    "alternativeTitle": "Grundriss der Königlichen Haupt und Residenzstadt Berlin, nach der vom KÃ¶nigl. Policeydirectorio(?) verstalteten neuen Bezeichnung der Strassen und Plätze",
+    "source": {
+      "dataset": "map-library",
+      "sourceRecordId": "26",
+      "sourceRow": 27
+    },
+    "place": {
+      "id": "place:city:berlin",
+      "label": "Berlin"
+    },
+    "temporal": {
+      "start": "1805-01-01 00:00:00",
+      "end": "1805-12-31 00:00:00",
+      "startYear": 1805,
+      "endYear": 1805
+    },
+    "geometry": {
+      "bbox": [
+        13.353781,
+        52.483291,
+        13.463578,
+        52.54246
+      ],
+      "sourceCorners": {
+        "northEast": [
+          13.463578,
+          52.54246
+        ],
+        "southWest": [
+          13.353781,
+          52.483291
+        ]
+      }
+    },
+    "rendering": {
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1805/",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1805/Thumb_50.png",
+      "minZoom": 10,
+      "maxZoom": 18,
+      "projection": null
+    },
+    "sourceRecord": {
+      "city": "Berlin",
+      "title": "Grundriss der Königlichen Haupt und Residenzstadt Berlin, nach der vom KÃ¶nigl. Policeydirectorio(?) verstalteten neuen Bezeichnung der Strassen und Plätze",
+      "titleEn": "",
+      "creator": "D.F. Sotzman",
+      "publicationDate": "",
+      "publisher": "Berlin in alten Karten Verlag Richard Seitz & Co., Berlin (gestochen von Carl JÃ¤ttrig in Berlin 1800.)",
+      "copyright": "",
+      "description": "",
+      "width": "68",
+      "height": "48",
+      "scale": "11.2cm=2300 steps",
+      "caption": "Dieser Plan welcher der Beschreibung von Berlin und Potsdam gehÃ¶rt ist bey Willhelm Oehmigke dem JÃ¼ngern BuchhÃ¤ndler in Berlin am alten Pakhofe No 9 wohnhaft in folgenden Preisen zu haben 1., Ein Schwarzer Abdruck 12.q?. 2., Ein Sauber illuminirter 18.",
+      "captionEn": "",
+      "collectionSource": "UCLA Bruman Map Collection",
+      "imageRecord": "",
+      "thumbnailUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1805/Thumb_50.png",
+      "callNumber": "***G6299 B3 svar 1982-83",
+      "state": "0",
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1805/",
+      "projection": "",
+      "maxZoom": "18",
+      "minZoom": "10",
+      "id": "26",
+      "mapping.kml": "",
+      "mapping.neLat": "52.54246000",
+      "mapping.neLon": "13.46357800",
+      "mapping.swLat": "52.48329100",
+      "mapping.swLon": "13.35378100",
+      "mapping.altitude": "0",
+      "mapping.dateFrom.date": "1805-01-01 00:00:00",
+      "mapping.dateFrom.timezone_type": "3",
+      "mapping.dateFrom.timezone": "America/Los_Angeles",
+      "mapping.dateTo.date": "1805-12-31 00:00:00",
+      "mapping.dateTo.timezone_type": "3",
+      "mapping.dateTo.timezone": "America/Los_Angeles",
+      "mapping.view": "",
+      "mapping.zoom": "",
+      "mapping.markerType": "",
+      "mapping.markerState": "",
+      "mapping.isNetworkLink": "False",
+      "mapping.isCollection": "False",
+      "mapping.georeferences": "[]",
+      "mapping.id": "",
+      "publicationDate.date": "",
+      "publicationDate.timezone_type": "",
+      "publicationDate.timezone": ""
+    },
+    "eligibleForCoring": true
+  },
+  {
+    "id": "map:38",
+    "kind": "historical-map",
+    "title": "City Map of Berlin: Capital of the GDR",
+    "alternativeTitle": "Stadtplan Berlin: Hauptstadt der DDR",
+    "source": {
+      "dataset": "map-library",
+      "sourceRecordId": "38",
+      "sourceRow": 38
+    },
+    "place": {
+      "id": "place:city:berlin",
+      "label": "Berlin"
+    },
+    "temporal": {
+      "start": "1986-01-01 00:00:00",
+      "end": "1986-12-31 00:00:00",
+      "startYear": 1986,
+      "endYear": 1986
+    },
+    "geometry": {
+      "bbox": [
+        13.34102,
+        52.336523,
+        13.719137,
+        52.647767
+      ],
+      "sourceCorners": {
+        "northEast": [
+          13.719137,
+          52.647767
+        ],
+        "southWest": [
+          13.34102,
+          52.336523
+        ]
+      }
+    },
+    "rendering": {
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1986",
+      "thumbnailUrl": "http://gis.ats.ucla.edu/tiles/Berlin/1986/Thumb_50.png",
+      "minZoom": 10,
+      "maxZoom": 18,
+      "projection": null
+    },
+    "sourceRecord": {
+      "city": "Berlin",
+      "title": "Stadtplan Berlin: Hauptstadt der DDR",
+      "titleEn": "City Map of Berlin: Capital of the GDR",
+      "creator": "",
+      "publicationDate": "",
+      "publisher": "VEB Tourist Verlag, 1986",
+      "copyright": "",
+      "description": "Does not depict the west",
+      "width": "96",
+      "height": "65",
+      "scale": "1:25000",
+      "caption": "",
+      "captionEn": "",
+      "collectionSource": "Wende Museum and Archive, Culver City",
+      "imageRecord": "",
+      "thumbnailUrl": "http://gis.ats.ucla.edu/tiles/Berlin/1986/Thumb_50.png",
+      "callNumber": "",
+      "state": "0",
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/Berlin_1986",
+      "projection": "",
+      "maxZoom": "18",
+      "minZoom": "10",
+      "id": "38",
+      "mapping.kml": "",
+      "mapping.neLat": "52.64776700",
+      "mapping.neLon": "13.71913700",
+      "mapping.swLat": "52.33652300",
+      "mapping.swLon": "13.34102000",
+      "mapping.altitude": "0",
+      "mapping.dateFrom.date": "1986-01-01 00:00:00",
+      "mapping.dateFrom.timezone_type": "3",
+      "mapping.dateFrom.timezone": "America/Los_Angeles",
+      "mapping.dateTo.date": "1986-12-31 00:00:00",
+      "mapping.dateTo.timezone_type": "3",
+      "mapping.dateTo.timezone": "America/Los_Angeles",
+      "mapping.view": "",
+      "mapping.zoom": "",
+      "mapping.markerType": "",
+      "mapping.markerState": "",
+      "mapping.isNetworkLink": "False",
+      "mapping.isCollection": "False",
+      "mapping.georeferences": "[]",
+      "mapping.id": "",
+      "publicationDate.date": "",
+      "publicationDate.timezone_type": "",
+      "publicationDate.timezone": ""
+    },
+    "eligibleForCoring": true
+  },
+  {
+    "id": "map:404",
+    "kind": "historical-map",
+    "title": "Johann Gregor Memhard Map",
+    "alternativeTitle": "Johann Gregor Memhard Map",
+    "source": {
+      "dataset": "map-library",
+      "sourceRecordId": "404",
+      "sourceRow": 366
+    },
+    "place": {
+      "id": "place:city:berlin",
+      "label": "Berlin"
+    },
+    "temporal": {
+      "start": "1650-01-01 00:00:00",
+      "end": "1650-12-31 00:00:00",
+      "startYear": 1650,
+      "endYear": 1650
+    },
+    "geometry": {
+      "bbox": [
+        13.390505,
+        52.504661,
+        13.422573,
+        52.527368
+      ],
+      "sourceCorners": {
+        "northEast": [
+          13.422573,
+          52.527368
+        ],
+        "southWest": [
+          13.390505,
+          52.504661
+        ]
+      }
+    },
+    "rendering": {
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/1650_Johann_Gregor_Memhard_Map_Final",
+      "thumbnailUrl": null,
+      "minZoom": 13,
+      "maxZoom": 19,
+      "projection": null
+    },
+    "sourceRecord": {
+      "city": "Berlin",
+      "title": "Johann Gregor Memhard Map",
+      "titleEn": "Johann Gregor Memhard Map",
+      "creator": "",
+      "publicationDate": "",
+      "publisher": "",
+      "copyright": "",
+      "description": "Johann Gregor Memhard Map",
+      "width": "0",
+      "height": "0",
+      "scale": "",
+      "caption": "",
+      "captionEn": "",
+      "collectionSource": "",
+      "imageRecord": "",
+      "thumbnailUrl": "",
+      "callNumber": "",
+      "state": "0",
+      "tileType": "GraphicsMagick",
+      "tileUrl": "http://tiles.ats.ucla.edu/tiles/1650_Johann_Gregor_Memhard_Map_Final",
+      "projection": "",
+      "maxZoom": "19",
+      "minZoom": "13",
+      "id": "404",
+      "mapping.kml": "",
+      "mapping.neLat": "52.52736800",
+      "mapping.neLon": "13.42257300",
+      "mapping.swLat": "52.50466100",
+      "mapping.swLon": "13.39050500",
+      "mapping.altitude": "0",
+      "mapping.dateFrom.date": "1650-01-01 00:00:00",
+      "mapping.dateFrom.timezone_type": "3",
+      "mapping.dateFrom.timezone": "America/Los_Angeles",
+      "mapping.dateTo.date": "1650-12-31 00:00:00",
+      "mapping.dateTo.timezone_type": "3",
+      "mapping.dateTo.timezone": "America/Los_Angeles",
+      "mapping.view": "",
+      "mapping.zoom": "",
+      "mapping.markerType": "",
+      "mapping.markerState": "",
+      "mapping.isNetworkLink": "False",
+      "mapping.isCollection": "False",
+      "mapping.georeferences": "[]",
+      "mapping.id": "",
+      "publicationDate.date": "",
+      "publicationDate.timezone_type": "",
+      "publicationDate.timezone": ""
+    },
+    "eligibleForCoring": true
+  }
+]

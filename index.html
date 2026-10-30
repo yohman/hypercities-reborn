@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080909">
+  <title>Hypercities Reborn · Berlin</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23080909'/%3E%3Cpath d='M8 6v20M24 6v20M8 16h16' stroke='%23da3833' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./vendor/Widgets/widgets.css">
+  <link rel="stylesheet" href="./style.css">
+  <script>window.CESIUM_BASE_URL='./vendor/';</script>
+  <script src="./vendor/Cesium.js"></script>
+</head>
+<body>
+  <div id="globe" aria-label="Interactive three-dimensional Berlin"></div>
+  <div class="vignette" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="https://hypercities.com/?enter=map">HYPERCITIES</a><span class="separator">/</span>
+    <button id="collection-toggle" aria-expanded="true" aria-controls="collection">BERLIN <span class="red">⌄</span></button>
+    <span class="prototype-label">FIELD PROTOTYPE 01</span>
+    <nav aria-label="Navigation mode" class="mode-switch">
+      <button id="fly" aria-pressed="true">FLY <span>↗</span></button>
+      <button id="walk" aria-pressed="false">WALK <span>↟</span></button>
+    </nav>
+    <button id="layers-toggle" aria-expanded="false" aria-controls="layers">MAPS <span id="layer-count">09</span></button>
+    <button id="help-toggle" aria-label="Navigation help and source information">?</button>
+  </header>
+
+  <aside id="collection" class="collection">
+    <p class="eyebrow">ONE COLLECTION · SIX ENCOUNTERS</p>
+    <h1>A city,<br>under revision.</h1>
+    <p class="intro">Berlin, from the Spree to the gate.<br>Buildings disappear. Places remain.</p>
+    <div class="collection-rule"><span>1650 — 1989</span><button id="overview" title="Return to the collection overview">OVERVIEW ↗</button></div>
+    <ol id="encounter-list"></ol>
+    <div class="sequence-controls"><button id="previous" aria-label="Previous narrative encounter">←</button><span id="sequence-position">EXPLORE FREELY</span><button id="next" aria-label="Follow the next narrative encounter">FOLLOW →</button></div>
+    <button class="collection-footnote" id="sources-open">LOCAL STUDIES / SOURCE NOTES ↗</button>
+  </aside>
+
+  <section id="encounter" class="encounter" aria-label="Selected encounter" hidden>
+    <div class="encounter-top"><span id="encounter-kind" class="eyebrow"></span><button id="encounter-close" aria-label="Close encounter">×</button></div>
+    <p id="encounter-year" class="encounter-year"></p>
+    <h2 id="encounter-title"></h2>
+    <p id="encounter-place" class="eyebrow quiet"></p>
+    <p id="encounter-body"></p>
+    <div id="encounter-media"></div>
+    <dl id="encounter-meta"></dl>
+    <button id="travel" class="travel">ENTER THIS MOMENT <span>↗</span></button>
+    <p class="travel-note">Moves you to the saved place, time, and map.</p>
+    <a id="encounter-source" target="_blank" rel="noopener">HISTORICAL SOURCE ↗</a>
+  </section>
+
+  <aside id="layers" class="layers" aria-label="Map library" hidden>
+    <div class="panel-heading"><h2>Ground / archive</h2><button id="layers-close" aria-label="Close maps">×</button></div>
+    <p class="eyebrow">CONTEMPORARY GROUND</p>
+    <div class="ground-options"><button data-ground="dark" aria-pressed="true">DARK</button><button data-ground="street" aria-pressed="false">STREET</button><button data-ground="satellite" aria-pressed="false">SATELLITE</button></div>
+    <label class="check"><input type="checkbox" id="buildings" checked> 3D buildings <small>present-day context</small></label>
+    <div class="panel-divider"></div>
+    <div class="map-heading"><span class="eyebrow">HISTORICAL LAYERS</span><label class="check"><input type="checkbox" id="auto-map" checked> Follow time</label></div>
+    <div id="map-list"></div>
+    <label class="opacity-label" for="opacity">MAP OPACITY <output id="opacity-value">78%</output></label>
+    <input id="opacity" type="range" min="0" max="100" value="78">
+    <button id="clear-map" class="text-button">SHOW GROUND ONLY</button>
+    <p id="map-status" class="source-note" role="status"></p>
+    <p class="source-note">Historical rasters: HyperCities / UCLA and Geoportal Berlin. They record different views of the city, not a continuous reconstruction.</p>
+  </aside>
+
+  <div id="crosshair" aria-hidden="true" hidden>+</div>
+  <div class="navigation-hud">
+    <span id="navigation-state">FREE FLIGHT</span><span class="hud-rule"></span><span id="coordinates">52.517° N · 13.390° E</span><span id="height">—</span>
+  </div>
+  <div class="navigation-actions"><button id="look" hidden>LOOK AROUND</button><button id="rise" aria-label="Fly upward" title="Fly upward (E)">↑</button><button id="lower" aria-label="Fly downward" title="Fly downward (Q)">↓</button><button id="north" title="Face north">N ↑</button></div>
+  <p id="navigation-hint" class="navigation-hint">Drag to explore · Right-drag to look · W A S D to fly · Q / E altitude</p>
+  <p id="context-note" class="context-note">3D buildings show present-day context · ground surface is simplified</p>
+  <div id="toast" role="status" hidden></div>
+  <div id="loading"><span class="loading-mark">H</span><p>ENTERING BERLIN</p><small>Loading the geographic field…</small></div>
+
+  <section class="timewell" aria-label="Timewell">
+    <div class="timewell-head">
+      <div class="timewell-name"><span class="red">↓</span> TIMEWELL <span class="quiet">/ STAY HERE, CHANGE TIME</span><span id="active-map" class="active-map">MAP / 1910</span></div>
+      <div class="timewell-tools"><button id="time-play" aria-label="Play historical time" aria-pressed="false">▶</button><button id="time-reset" title="Show the collection’s full time range">COLLECTION</button><button id="time-expand" aria-expanded="false" title="Expand the temporal section">EXPAND ↗</button></div>
+    </div>
+    <div class="timewell-body">
+      <div class="time-focus"><button id="date-toggle" title="Enter an exact historical date"><span id="date-era">FOCAL YEAR</span><strong id="focus-year">1910</strong><span id="focus-detail">1 JANUARY</span></button><form id="date-form" hidden><label for="exact-date">DATE / ISO, BCE SUPPORTED</label><input id="exact-date" value="1910-01-01T12:00:00" aria-label="Exact historical date"><button type="submit">SET →</button><p id="date-error" role="alert"></p></form><p id="visible-count">6 encounters in view</p></div>
+      <div class="time-instrument"><div id="time-axis" tabindex="0" role="slider" aria-label="Historical time. Arrow keys move time; plus and minus change scale." aria-valuemin="-10000" aria-valuemax="12000" aria-valuenow="1910"><svg id="time-drawing" aria-hidden="true"></svg><div id="time-objects"></div><div class="focal-line" aria-hidden="true"><i></i></div><span class="track-label objects-track">ENCOUNTERS</span><span class="track-label maps-track">MAPS</span></div>
+        <div class="timewell-bottom"><span>DRAG THROUGH TIME · SCROLL TO CHANGE SCALE</span><div class="scale-controls"><button id="zoom-in" aria-label="Narrow time span">−</button><label for="time-scale" class="sr-only">Visible time span</label><input id="time-scale" type="range" min="0" max="1000" value="950"><button id="zoom-out" aria-label="Widen time span">+</button><output id="span-label">600 YEARS</output></div></div>
+      </div>
+    </div>
+  </section>
+
+  <dialog id="help" aria-labelledby="help-title"><button id="help-close" class="dialog-close" aria-label="Close help">×</button><p class="eyebrow red">HYPERCITIES · BERLIN / PROTOTYPE 01</p><h2 id="help-title">Move through the city.<br>Move through its histories.</h2><div class="help-columns"><section><h3>Fly / Walk</h3><p><kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> move. Arrow keys turn and look. <kbd>Q</kbd> / <kbd>E</kbd> change altitude in Fly. Hold <kbd>Shift</kbd> to move faster.</p><p>In Walk, drag to look or use “Look around” for pointer capture. <kbd>Esc</kbd> releases the pointer. Buildings are contemporary OSM footprints with recorded or estimated heights. Contemporary footprints around the Palast study are hidden while its volume is active. Movement follows a simplified ellipsoid surface; building collision and historical terrain are not modeled.</p><h3>Timewell</h3><p>Drag the temporal section to scrub. Scroll or use the scale control to move continuously from millennia to seconds. Focus the section and use ← / → to scrub; + / − to zoom. Click the date to enter an exact date, including “500 BCE”.</p><p>Click an encounter to inspect it. “Enter this moment” explicitly travels to its saved viewpoint. Changing time alone preserves your position. Map following can be switched off.</p></section><section><h3>Evidence / studies</h3><p>This is a local interface study, with no database. Historical dates and sources are separate from media playback. The Palast model is an approximate massing study; the video is an animated map study; the sound is a synthetic sound study. None is archival testimony.</p><div id="source-list"></div><p class="source-note">Time uses a proleptic Gregorian calendar and UTC. BCE display omits year zero. Dates without known times remain labeled by year. The time control’s precision does not imply precision in the evidence.</p></section></div></dialog>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

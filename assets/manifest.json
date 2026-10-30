@@ -1,0 +1,100 @@
+{
+  "hc-1650": {
+    "file": "hc-1650.png",
+    "bbox": [
+      13.33740234375,
+      52.49615953109709,
+      13.447265625,
+      52.536273041459474
+    ],
+    "tiles": 6,
+    "expectedTiles": 15,
+    "source": "https://tiles.ats.ucla.edu/tiles/Berlin_1650/",
+    "projection": "EPSG:4326, resampled from EPSG:3857"
+  },
+  "hc-1805": {
+    "file": "hc-1805.png",
+    "bbox": [
+      13.33740234375,
+      52.49615953109709,
+      13.447265625,
+      52.536273041459474
+    ],
+    "tiles": 15,
+    "expectedTiles": 15,
+    "source": "https://tiles.ats.ucla.edu/tiles/Berlin_1805/",
+    "projection": "EPSG:4326, resampled from EPSG:3857"
+  },
+  "hc-1905": {
+    "file": "hc-1905.png",
+    "bbox": [
+      13.33740234375,
+      52.49615953109709,
+      13.447265625,
+      52.536273041459474
+    ],
+    "tiles": 15,
+    "expectedTiles": 15,
+    "source": "https://tiles.ats.ucla.edu/tiles/Berlin_1905/",
+    "projection": "EPSG:4326, resampled from EPSG:3857"
+  },
+  "hc-1947": {
+    "file": "hc-1947.png",
+    "bbox": [
+      13.33740234375,
+      52.49615953109709,
+      13.447265625,
+      52.536273041459474
+    ],
+    "tiles": 15,
+    "expectedTiles": 15,
+    "source": "https://tiles.ats.ucla.edu/tiles/Berlin_1947/",
+    "projection": "EPSG:4326, resampled from EPSG:3857"
+  },
+  "hc-1986": {
+    "file": "hc-1986.png",
+    "bbox": [
+      13.33740234375,
+      52.49615953109709,
+      13.447265625,
+      52.536273041459474
+    ],
+    "tiles": 15,
+    "expectedTiles": 15,
+    "source": "https://tiles.ats.ucla.edu/tiles/Berlin_1986/",
+    "projection": "EPSG:4326, resampled from EPSG:3857"
+  },
+  "berlin-1910": {
+    "file": "berlin-1910.png",
+    "bbox": [
+      13.33740234375,
+      52.49615953109709,
+      13.447265625,
+      52.536273041459474
+    ],
+    "source": "https://gdi.berlin.de/services/wms/staedtebauliche_entwicklung?service=WMS&version=1.1.1&request=GetMap&layers=berlin_1910&styles=&srs=EPSG:3857&bbox=1484712.8374112635,6890339.477738929,1496942.7619368916,6897677.432454307&width=1280&height=768&format=image/png&transparent=true",
+    "projection": "EPSG:4326, resampled from EPSG:3857"
+  },
+  "berlin-1945": {
+    "file": "berlin-1945.png",
+    "bbox": [
+      13.33740234375,
+      52.49615953109709,
+      13.447265625,
+      52.536273041459474
+    ],
+    "source": "https://gdi.berlin.de/services/wms/staedtebauliche_entwicklung?service=WMS&version=1.1.1&request=GetMap&layers=berlin_1945_gebaeudeschaeden&styles=&srs=EPSG:3857&bbox=1484712.8374112635,6890339.477738929,1496942.7619368916,6897677.432454307&width=1280&height=768&format=image/png&transparent=true",
+    "projection": "EPSG:4326, resampled from EPSG:3857"
+  },
+  "berlin-1986": {
+    "file": "berlin-1986.png",
+    "bbox": [
+      13.33740234375,
+      52.49615953109709,
+      13.447265625,
+      52.536273041459474
+    ],
+    "source": "https://gdi.berlin.de/services/wms/staedtebauliche_entwicklung?service=WMS&version=1.1.1&request=GetMap&layers=berlin_1986&styles=&srs=EPSG:3857&bbox=1484712.8374112635,6890339.477738929,1496942.7619368916,6897677.432454307&width=1280&height=768&format=image/png&transparent=true",
+    "projection": "EPSG:4326, resampled from EPSG:3857"
+  }
+}
